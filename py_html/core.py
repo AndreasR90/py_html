@@ -1,6 +1,3 @@
-from werkzeug.utils import html
-
-
 class htmlObject:
     def __init__(self, children=None, id=None, style=None, className=None, **kwargs):
         self.id = id
